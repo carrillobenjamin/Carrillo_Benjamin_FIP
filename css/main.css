@@ -1,0 +1,650 @@
+body {
+	max-width: 1364px;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #292222;
+}
+
+h2 {
+	font-family: 'Passion One', cursive;
+	font-size: 28px;
+}
+
+h2:hover {
+	cursor: default;
+}
+
+h3 {
+	font-size: 42px;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+h3:hover {
+	cursor: default;
+}
+
+h4 {
+	font-family: 'Passion One', cursive;
+	font-size: 46px;
+	color: #ED8B06;
+}
+
+h4:hover {
+	cursor: default;
+}
+
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	line-height: 27.6px;
+	color: #eceded;
+}
+
+p:hover {
+	cursor: default;
+}
+
+.button {
+	width: 150px;
+	height: 40px;
+	background-color: #91A61D;
+	border-radius: 50px;
+	border-color: #91A61D;
+	font-size: 17px;
+	color: #eceded;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #6C7C12;
+	border-color: #6C7C12;
+}
+
+.hidden {
+	display: none;
+}
+
+.mainText {
+	color: blue;
+}
+
+/*-- HEADER --*/
+
+#header {
+	display: flex;
+	background-color: #ED8B06;
+	width: 100%;
+	height: 100px;
+}
+
+#logo {
+	margin-top: 17.5px;
+	margin-left: 25px;
+	width: 100px;
+}
+
+#logo img {
+	width: 100px;
+	height: 60px;
+}
+
+.nav {
+	font-family: 'Passion One', cursive;
+	font-size: 24px;
+	margin-top: 10px;
+	width: 1200px;
+	text-align: right;
+	height: 70px;
+	line-height: 70px;
+	z-index: 1000;
+}
+
+.menu {
+	margin: 0 30px 0 0;
+}
+
+.menu a {
+	clear: right;
+	text-decoration: none;
+	color: #D22501;
+	margin: 0 10px;
+	line-height: 70px;
+}
+
+.menu a:hover {
+	color: #88472E;
+}
+
+span {
+	color: #4C551C;
+}
+
+label {
+	color: white;
+	margin: 0 40px 0 0;
+	font-size: 40px;
+	line-height: 70px;
+	display: none;
+	width: 26px;
+	float: right;
+}
+
+#toggle {
+	display: none;
+}
+
+/*-- HERO --*/
+
+#hero {
+	margin: 0 auto;
+	max-width: 1080px;
+	height: 100%;
+	margin-bottom: 100px;
+}
+
+#hero img {
+	width: 100%;
+}
+
+/*-- ABOUT --*/
+
+#about {
+	position: relative;
+	margin: 0 auto;
+	background-color: black;
+	width: 700px;
+	height: 400px;
+	padding: 40px;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 15px;
+	border-color: #eceded;
+	background-color: #171515;
+	box-shadow: 5px 5px 25px;
+	margin-bottom: 200px;
+}
+
+#about h4 {
+	font-family: 'Passion One', cursive;
+	font-size: 46px;
+	color: #ED8B06;
+}
+
+/*-- PRODUCTS --*/
+
+#products {
+	margin: 0 auto;
+	display: flex;
+	width: relative;
+	height: 300px;
+	margin-bottom: 200px;
+}
+
+.card {
+	width: 220px;
+	height: 250px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #ED8B06;
+	border-radius: 8px;
+	background-color: #171515;
+}
+
+.card img {
+	width: 100%;
+	height: 100%;
+	border-radius: 6px;
+}
+
+#slider {
+	width: 1004px;
+	height: 250px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #91A61D;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #171515;
+	border-radius: 8px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-around;
+	box-shadow: 5px 5px 25px;
+
+}
+
+/*-- LOCATION --*/
+
+#location {
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	width: 700px;
+	height: 400px;
+	padding: 40px;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 15px;
+	border-color: #eceded;
+	background-color: #171515;
+	box-shadow: 5px 5px 25px;
+}
+
+#location h4 {
+	font-family: 'Passion One', cursive;
+	font-size: 46px;
+	color: #ED8B06;
+}
+
+#link {
+	color: #2d2af5;
+	font-style: underline;
+}
+
+#link:hover {
+	cursor: pointer;
+}
+
+/*-- FOOTER --*/
+
+#footer {
+	margin-top: 300px;
+	max-width: 1364px;
+	width: relative;
+	height: 389px;
+	background-color: #171515;
+	border-top-style: solid;
+	border-width: 3px;
+	border-color: #eceded;
+}
+
+#footerNav {
+	margin: 0 auto;
+	justify-content: flex-end;
+	max-width: 600px;
+	width: relative;
+	height: 45px;
+	margin-top: 20px;
+}
+
+#footerNav ul li a:hover {
+	color: #88472E;
+}
+
+#footerNav ul li {
+	float: left;
+}
+
+#footerNav ul li a {
+	display: block;
+	font-size: 24px;
+	text-decoration: none;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 20px;
+	cursor: pointer;
+	font-family: 'Passion One', cursive;
+	color: #D22501;
+}
+
+#copyright {
+	width: 230px;
+	height: 75px;
+	margin-top: 200px;
+	margin-left: 1100px;
+}
+
+#copyright p {
+	font-size: 16px;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 640px) {
+
+	/*-- HEADER --*/
+
+	label {
+		display: block;
+		cursor: pointer;
+	}
+
+	.menu {
+		text-align: center;
+		width: 100%;
+		display: none;
+	}
+
+	.menu a {
+		background-color: #292222;
+		display: block;
+		border-bottom: 1px solid #171515;
+		margin: 0;
+	}
+
+	#toggle:checked + .menu {
+		display: block;
+	}
+
+	/*-- ABOUT --*/
+
+	#about {
+		width: 351px;
+		height: 465px;
+		text-align: center;
+	}
+
+	/*-- PRODUCTS --*/
+
+	#products {
+		width: 350px;
+		height: 896px;
+
+	}
+
+	#slider {
+		margin: 0 auto;
+		width: 350px;
+		height: 896px;
+		display: inline-block;
+	}
+
+	.card {
+		margin: 30px 0 0 60px;
+	}
+
+	/*-- LOCATION --*/
+
+	#location {
+		width: 351px;
+		height: 465px;
+		text-align: center;
+	}
+
+	#footerNav{
+		width: 100%;
+	}
+
+}
+
+/*----ABOUT PAGE----*/
+
+.headImage {
+	width: 1004px;
+	height: 300px;
+	margin: 0 auto;
+	margin-bottom: 75px;
+}
+
+.aboutText {
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	width: 700px;
+	height: 300px;
+	padding: 40px;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 15px;
+	border-color: #eceded;
+	background-color: #171515;
+	box-shadow: 5px 5px 25px;
+}
+
+.aboutText h4 {
+	font-family: 'Passion One', cursive;
+	font-size: 42px;
+	color: #ED8B06;
+}
+
+@media only screen and (max-width: 640px) {
+
+	.aboutText {
+		width: 351px;
+		height: 465px;
+		text-align: center;
+	}
+
+}
+
+/*----PRODUCTS PAGE----*/
+
+.productList {
+	margin: 0 auto;
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-around;
+	max-width: 1000px;
+	height: 250px;
+	width: relative;
+}
+
+.productCard {
+	max-width: 400px;
+	height: 200px;
+	width: relative;
+	padding: 20px;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 15px;
+	border-color: #eceded;
+	background-color: #171515;
+}
+
+.productCard:hover {
+	box-shadow: 5px 5px 25px;
+}
+
+.productCard h4 {
+	font-family: 'Passion One', cursive;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 27px;
+	color: #ED8B06;
+}
+
+.productCard img {
+	border-radius: 5px;
+	height: 200px;
+	width: 185px;
+}
+
+.cardInfo {
+	height: 150px;
+	display: flex;
+}
+
+.cardButton {
+	height: 60px;
+	margin-left: 230px;
+}
+
+@media only screen and (max-width: 640px) {
+
+	.productList {
+		margin: 0 auto;
+		width: 425px;
+		height: 580px;
+		display: block;
+	}
+
+	.productCard {
+		margin-top: 40px;
+		display: inline-block;
+	}
+
+}
+
+/*----CONTACT PAGE----*/
+
+#contact {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	max-width: 1004px;
+	height: 500px;
+	width: relative;
+	margin-top: 50px;
+}
+
+#contactInfo {
+	width: 400px;
+	height: 450px;
+	padding: 20px;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 15px;
+	border-color: #eceded;
+	background-color: #171515;
+	box-shadow: 5px 5px 25px;
+}
+
+#contactInfo h4 {
+	font-family: 'Passion One', cursive;
+	font-size: 34px;
+	color: #ED8B06;
+}
+
+.inputBox {
+	border-radius: 10px;
+	border-color: #eceded;
+	font-size: 12px;
+	background-color: #eceded;
+}
+
+#contactButton {
+	width: 150px;
+	height: 40px;
+	background-color: #91A61D;
+	border-radius: 60px;
+	border-color: #91A61D;
+	font-size: 17px;
+	color: #eceded;
+}
+
+#contactButton:hover {
+	cursor: pointer;
+	background-color: #6C7C12;
+	border-color: #6C7C12;
+}
+
+#social {
+	width: 200px;
+	height: 350px;
+	padding: 20px;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 15px;
+	border-color: #eceded;
+	background-color: #171515;
+	box-shadow: 5px 5px 25px;
+}
+
+#social h4 {
+	font-family: 'Passion One', cursive;
+	margin-left: 30px;
+	font-size: 34px;
+	color: #ED8B06;
+}
+
+#socialImg {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 50px;
+	height: 250px;
+}
+
+#socialImg img {
+	width: 50px;
+	height: 50px;
+}
+
+#socialImg img:hover {
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 640px) {
+
+	#contact {
+		width: 447px;
+		height: 700px;
+		display: block;
+	}
+
+	#contactInfo {
+		margin-bottom: 50px;
+	}
+
+	#social {
+		width: 400px;
+		height: 150px;
+	}
+
+	#socialImg {
+		display: flex;
+		justify-content: space-around;
+		width: 350px;
+		height: 50px;
+	}
+
+}
+
+/*----CART----*/
+
+#checkout {
+	margin: 0 auto;
+	margin-top: 50px;
+	max-width: 900px;
+	height: 670px;
+	width: relative;
+	padding: 20px;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 15px;
+	border-color: #eceded;
+	background-color: #eceded;
+	box-shadow: 5px 5px 25px;
+}
+
+#checkout h2 {
+	font-size: 38px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+#checkout table, th, td {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+#checkout table {
+	width: 100%;
+}
+
+#checkout th, td {
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#checkout th, td {
+	cursor: default;
+}
+
+#checkout button {
+	margin-left: 20px;
+}
+
+@media only screen and (max-width: 640px) {
+
+	#checkout {
+		margin: 50px;
+	}
+
+
+
+}
+
+

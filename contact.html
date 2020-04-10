@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Passion+One&display=swap" rel="stylesheet">
+	<link  href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
+	<link  href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<h1 class="hidden">Heinz Burger King </h1>
+<!-- HEADER -->
+	<section id="header">
+		<h3 class="hidden">Header</h3>
+		<div id="logo">
+			<img src="images/logo.png" alt="logo">
+		</div>
+
+		<div class="nav">
+			<h4 class="hidden">Main Nav</h4>
+			<label for="toggle">&#9776;</label>
+			<input type="checkbox" id="toggle"/>
+			<div class="menu">
+				<a href="index.html">HOME</a>
+				<a href="about.html">ABOUT</a>
+				<a href="products.html">PRODUCTS</a>
+				<a href="contact.html">CONTACT</a>
+				<a href="cart.html"><span>CART</span></a>
+			</div>
+		</div>
+	</section>
+<!-- HERO IMAGE -->
+	<section class="headImage">
+		<h3 class="hidden">Hero Image</h3>
+		<img src="images/sauces.jpg" width="1004" height="300" alt="hero image">
+	</section>
+<!-- CONTACT -->
+	<section id="contact">
+		<h3 class="hidden">Contact</h3>
+		<div id="contactInfo">
+			<br>
+			<h4>QUESTIONS / COMMENTS</h4>
+			<br>
+			<br>
+			<form action="form.php" method="post" id="form">
+	            <br><br>
+	            <input class="inputBox" type="Email" placeholder="Email" size="30" required>
+	        <br><br><br><br>
+	            <textarea class="inputBox" placeholder="Comment" rows="8" cols="40"></textarea>
+	        <br>
+	        <br>
+	        <br>
+	            <input type="submit" value="Submit" required id="contactButton">
+	        </form>   
+		</div>
+		<div id="social">
+			<br>
+			<h4>FOLLOW US</h4>
+			<div id="socialImg">
+				<img src="images/facebook.png" alt="Facebook">
+				<br><br>
+				<img src="images/youtube.png" alt="Youtube">
+				<br><br>
+				<img src="images/instagram.png" alt="Instagram">
+				<br><br>
+				<img src="images/twitter.png" alt="Twitter">
+			</div>
+		</div>
+	</section>
+<!-- FOOTER -->
+	<section id="footer">
+		<h2 class="hidden">Footer</h2>
+		<div id="footerNav">
+			<h3 class="hidden">Footer Nav</h3>
+			<ul>
+            	<li><a href="index.html">HOME&nbsp;</a></li>
+                <li><a href="about.html">&nbsp;ABOUT&nbsp;</a></li>
+                <li><a href="prudcts.html">&nbsp;PRODUCTS&nbsp;</a></li>
+                <li><a href="contact.html">&nbsp;CONTACT</a></li>
+            </ul>
+		</div>
+	<div id="copyright">
+		<p>All rights reserved ©<br>Heinz Burger King 2020</p>
+	</div>
+	</section>
+
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
